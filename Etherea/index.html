@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/95f73f5d7d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+    <title>ETHEREA</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img class="logo" src="logo.jpg" alt="Logo Etherea">
+                <div class="logo-border"></div>
+        </div>
+            <div class="text-container">
+                <h1>E T H E R E A</h1>
+                <h2>Cadouri personalizate</h2>
+            </div>
+             <!-- Alte elemente din header ... -->
+             <a href="#gallery1" onclick="afiseazaGalerie('gallery1')" title="Cutie de flori cu baloane personalizabile"><i class="fa-solid fa-gift"></i></a>
+             <a href="#gallery2" onclick="afiseazaGalerie('gallery2')" title="Panouri aniversare personalizabile"><i class="fa-solid fa-panorama"></i></a>
+             <a href="#gallery3" onclick="afiseazaGalerie('gallery3')" title="Alte chestii"><i class="fa-solid fa-ghost"></i></a>
+              <!-- Butonul pentru a merge la pagina cu toate produsele -->
+    <a href="produse.html" class="button">Toate Produsele</a>
+    </header>
+    <div class="divider medium"></div>
+    <section class="intro">
+        <p>Bine ați venit în universul cadourilor personalizate, unde fiecare moment special devine o experiență unică!
+            Suntem pasionați să transformăm sentimentele în creații memorabile, iar la <span class="etherea-word">Etherea</span>, 
+            aducem unicitatea la un nivel superior.</p>
+         <p>Descoperiți lucrările noastre de cadouri personalizate, de la cutii de flori îmbinate armonios cu baloane personalizabile
+             și panouri decorative din plexiglas
+             cu mesaje despre evenimentele din viața ta,
+            până la panouri din pânză și portrete care îmbrățișează emoțiile într-un mod inedit.</p>
+         <p><i class="fa-solid fa-location-dot"></i> <span class="zona"> Zona Beiuș - Ștei </span></p>
+         <p>Livrare rapidă <i class="fa-solid fa-truck-fast"></i></p>
+         
+        <hr> <!-- Linie între secțiuni -->
+    </section>
+
+    <section class="gallery" id="gallery1">
+        <h2><i class="fa-solid fa-gift"></i>Cutie de flori cu baloane personalizabile</h2>
+        <div class="image">
+            <img src="Imagini/a1.jpg" alt="Descriere imagine 1">
+            <p></p>
+        </div>
+        <div class="image">
+            <img src="Imagini/a2.jpg" alt="Descriere imagine 2">
+            <p></p>
+        </div>
+        <div class="image">
+            <img src="Imagini/a3.jpg" alt="Descriere imagine 3">
+            <p></p>
+        </div>
+        <div class="image">
+            <img src="Imagini/a4.jpg" alt="Descriere imagine 4">
+            <p> </p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a5.jpg" alt="Descriere imagine 5">
+            <p> </p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a6.jpg" alt="Descriere imagine 6">
+            <p> </p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a8.jpg" alt="Descriere imagine 7">
+            <p> </p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a10.jpg" alt="Descriere imagine 8">
+            <p> </p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a11.jpg" alt="Descriere imagine 11">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a12.jpg" alt="Descriere imagine 12">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a13.jpg" alt="Descriere imagine 11">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a14.jpg" alt="Descriere imagine 12">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a15.jpg" alt="Descriere imagine 11">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a16.jpg" alt="Descriere imagine 12">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a17.jpg" alt="Descriere imagine 11">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a18.jpg" alt="Descriere imagine 12">
+            <p></p>
+        </div>
+<!-- Adaugă atributul onclick cu id-ul galeriei -->
+<button class="show-more-btn" id="showMoreButton" data-gallery="gallery1">Vezi mai multe</button>
+
+        <hr class="separator"> <!-- Adaugă linia de separare -->
+
+    </section>
+    <!-- Sectiunea 2 - Imagini Categoria 2 -->
+    <section class="gallery" id="gallery2">
+        <h2><i class="fa-solid fa-panorama"></i>Panouri aniversare personalizabile</h2>
+        <div class="image">
+            <img src="Imagini/b1.jpg" alt="Descriere imagine 1">
+            <p></p>
+        </div>
+        <div class="image">
+            <img src="Imagini/b2.jpg" alt="Descriere imagine 2">
+            <p></p>
+        </div>
+        <div class="image">
+            <img src="Imagini/b3.jpg" alt="Descriere imagine 3">
+            <p></p>
+        </div>
+        <div class="image">
+            <img src="Imagini/b4.jpg" alt="Descriere imagine 4">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/b5.jpg" alt="Descriere imagine 5">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/b6.jpg" alt="Descriere imagine 6">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/b7.jpg" alt="Descriere imagine 7">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/b8.jpg" alt="Descriere imagine 8">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/b1.jpg" alt="Descriere imagine 11">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/b2.jpg" alt="Descriere imagine 12">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/b1.jpg" alt="Descriere imagine 1">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/b2.jpg" alt="Descriere imagine 2">
+            <p></p>
+        </div>
+<!-- Adaugă atributul onclick cu id-ul galeriei -->
+<button class="show-more-btn" id="showMoreButton" data-gallery="gallery2">Vezi mai multe</button>
+<hr class="separator"> <!-- Adaugă linia de separare -->
+    </section>
+
+    <section class="gallery" id="gallery3">
+        <h2><i class="fa-solid fa-xmarks-lines"></i> Alte produse</h2>
+
+        <div class="image">
+            <a href="tava-lemn.html">
+                <img src="Imagini/a15.jpg" alt="Descriere imagine 1">
+                <p>Tava Lemn</p>
+            </a>
+        </div>
+        <div class="image">
+            <a href="baloane.html">
+            <img src="Imagini/a16.jpg" alt="Descriere imagine 2">
+            <p>Baloane</p></a>
+        </div>
+        <div class="image">
+            <a href="produse.html">
+            <img src="Imagini/a17.jpg" alt="Descriere imagine 3">
+            <p>Pahare</p></a>
+        </div>
+        <div class="image">
+            <a href="produse.html">
+            <img src="Imagini/a18.jpg" alt="Descriere imagine 4">
+            <p> Artificii</p></a>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a5.jpg" alt="Descriere imagine 5">
+            <p> </p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a6.jpg" alt="Descriere imagine 6">
+            <p> </p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a8.jpg" alt="Descriere imagine 7">
+            <p> </p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a10.jpg" alt="Descriere imagine 8">
+            <p> </p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a11.jpg" alt="Descriere imagine 11">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a12.jpg" alt="Descriere imagine 12">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a13.jpg" alt="Descriere imagine 11">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a14.jpg" alt="Descriere imagine 12">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a15.jpg" alt="Descriere imagine 11">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a16.jpg" alt="Descriere imagine 12">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a17.jpg" alt="Descriere imagine 11">
+            <p></p>
+        </div>
+        <div class="image hidden">
+            <img src="Imagini/a18.jpg" alt="Descriere imagine 12">
+            <p></p>
+        </div>
+<!-- Adaugă atributul onclick cu id-ul galeriei -->
+<button class="show-more-btn" id="showMoreButton" data-gallery="gallery3">Vezi mai multe</button>
+<hr class="separator"> <!-- Adaugă linia de separare -->
+
+</section>
+
+<!-- Adaugă clasa testimonials-section -->
+<section class="testimonials-section" id="testimonials">
+    
+    <h2>Experiențe clienți : </h2>
+    <div class="testimonials-slider">
+        <!-- Continutul testimonialelor -->
+        <!-- Testimonial 1 -->
+        <div class="testimonial">
+            <img src="Imagini/a1.jpg" alt="Imagine client 1" class="testimonial-image">
+            <p>"Produsele de la Etherea sunt absolut minunate! Calitatea și atenția la detalii m-au impresionat. Recomand cu încredere!"</p>
+            <p class="clienti"><i class="fa-regular fa-face-laugh-beam"></i> Ana</p>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial">
+            <img src="Imagini/a10.jpg" alt="Imagine client 2" class="testimonial-image">
+            <p>"Experiența cu Etherea a fost de neuitat. Am primit exact ceea ce mi-am dorit și chiar mai mult. Mulțumesc pentru creativitatea voastră!"</p>
+            <p class="clienti"><i class="fa-regular fa-face-smile-beam"></i> Paula</p>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial">
+            <img src="Imagini/a15.jpg" alt="Imagine client 3" class="testimonial-image">
+            <p>"Am comandat un cadou personalizat și rezultatul a depășit așteptările mele. Serviciul prompt și profesionalismul echipei Etherea m-au impresionat."</p>
+            <p class="clienti"><i class="fa-regular fa-face-smile"></i> Denisa</p>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="testimonial">
+            <img src="Imagini/b1.jpg" alt="Imagine client 3" class="testimonial-image">
+            <p>"Multumesc pentru promtitudine. Foarte atenti la detalii!"</p>
+            <p class="clienti"><i class="fa-regular fa-face-smile-beam"></i> Matei</p>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>Pentru comenzi și detalii:</p>
+        <p><a href="https://www.facebook.com/profile.php?id=61556535262920&locale=ro_RO" class="facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="tel:+40774015040" class="phone-number"><i class="fa-brands fa-whatsapp"></i></a></p> 
+        <p>&copy; 2024 Etherea</p>
+    </footer>
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</body>
+</html>
