@@ -157,7 +157,7 @@ hr {
 .image img {
     max-width: 100%; /* Lățime maximă 100% pentru imagini */
     max-height: 500px; /* Înălțime maximă pentru imagini */
-    border-radius: 10px; /* Bordură rotunjită */
+    border-radius: 15px; /* Bordură rotunjită */
     transition: transform 0.3s; /* Tranziție pentru efectul de transformare */
 }
 
@@ -420,7 +420,7 @@ button.toate-produsele a {
 /* Stiluri pentru imagini din produse.html */
 .produse-image img {
     max-width: 100%; /* Lățime maximă 100% pentru imagini */
-    max-height: 500px; /* Înălțime maximă pentru imagini */
+    max-height: 400px; /* Înălțime maximă pentru imagini */
     border-radius: 100px; /* Bordură rotunjită */
     transition: transform 0.3s; /* Tranziție pentru efectul de transformare */
 }
