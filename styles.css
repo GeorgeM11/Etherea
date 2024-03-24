@@ -83,7 +83,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif; /* Font family pentru text */
     font-size: 18px; /* Dimensiune text */
     font-weight: bold; /* Text bold */
-    max-width: 1200px; /* Lățime maximă pentru text */
+    max-width: 1100px; /* Lățime maximă pentru text */
 }
 
 /* Stiluri pentru cuvântul "Etherea" din paragrafele sectiunii intro */
@@ -423,4 +423,7 @@ button.toate-produsele a {
     max-height: 400px; /* Înălțime maximă pentru imagini */
     border-radius: 100px; /* Bordură rotunjită */
     transition: transform 0.3s; /* Tranziție pentru efectul de transformare */
+}
+.videos{
+    text-align: center;
 }
