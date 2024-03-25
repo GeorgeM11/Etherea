@@ -72,7 +72,7 @@ h2 {
 
 /* Stiluri pentru sectiunea de introducere (intro) */
 .intro {
-    text-align: center; /* Alineare text la centru */
+    text-align: center; /* Aliniare text la centru */
 }
 
 /* Stiluri pentru paragrafele din sectiunea de introducere (intro) */
@@ -83,7 +83,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif; /* Font family pentru text */
     font-size: 18px; /* Dimensiune text */
     font-weight: bold; /* Text bold */
-    max-width: 1100px; /* Lățime maximă pentru text */
+    max-width: 1150px; /* Lățime maximă pentru text */
 }
 
 /* Stiluri pentru cuvântul "Etherea" din paragrafele sectiunii intro */
@@ -118,6 +118,8 @@ h2 {
 .gallery .image a {
     text-decoration: none; /* Elimină sublinierea pentru link-uri */
     color: white;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /* Linie de separare */
@@ -159,6 +161,10 @@ hr {
     max-height: 500px; /* Înălțime maximă pentru imagini */
     border-radius: 15px; /* Bordură rotunjită */
     transition: transform 0.3s; /* Tranziție pentru efectul de transformare */
+}
+
+image p{
+    font-weight: bold;
 }
 
 /* Efect la hover pentru imagini din galerie */
@@ -294,7 +300,7 @@ footer a:hover i {
 }
 
 .facebook{
-    color: #101ee2; /* Culoare pentru iconița de Facebook */
+    color: #2558be; /* Culoare pentru iconița de Facebook */
     font-size: 30px; /* Dimensiune pentru iconița de Facebook */
 }
 
@@ -381,12 +387,12 @@ footer a:hover i {
 }
 
 .testimonial p {
-    font-size: 14px; /* Ajustează dimensiunea textului pentru dispozitive mici în footer */
+    font-size: 17px; /* Ajustează dimensiunea textului pentru dispozitive mici în footer */
 }
 
 .testimonial-image {
-    width: 60px; /* Ajustează dimensiunea imaginii pentru dispozitive mici în footer */
-    height: 60px; /* Înălțimea imaginii pentru dispozitive mici în footer */
+    width: 100px; /* Ajustează dimensiunea imaginii pentru dispozitive mici în footer */
+    height: 100px; /* Înălțimea imaginii pentru dispozitive mici în footer */
 }
 
 .clienti {
@@ -426,4 +432,18 @@ button.toate-produsele a {
 }
 .videos{
     text-align: center;
+}
+/* Ascunde butoanele la dimensiuni mai mici de 768px (exemplu pentru ecrane de tip telefon) */
+@media screen and (max-width: 768px) {
+    .button {
+        display: none;
+    }
+}
+.personalizabile{
+    text-align: center;
+}
+.personalizabile h2{
+    color: black;
+    font-size: 18px;
+    font-style: italic;
 }
