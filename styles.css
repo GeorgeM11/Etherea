@@ -435,10 +435,13 @@ button.toate-produsele a {
 }
 /* Ascunde butoanele la dimensiuni mai mici de 768px (exemplu pentru ecrane de tip telefon) */
 @media screen and (max-width: 768px) {
-    .button {
+    a[href="#gallery1"],
+    a[href="#gallery2"],
+    a[href="#gallery3"] {
         display: none;
     }
 }
+
 .personalizabile{
     text-align: center;
 }
