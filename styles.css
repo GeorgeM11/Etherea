@@ -158,7 +158,7 @@ hr {
 /* Stiluri pentru imagini din galerie */
 .image img {
     max-width: 100%; /* Lățime maximă 100% pentru imagini */
-    max-height: 500px; /* Înălțime maximă pentru imagini */
+    max-height: 450px; /* Înălțime maximă pentru imagini */
     border-radius: 15px; /* Bordură rotunjită */
     transition: transform 0.3s; /* Tranziție pentru efectul de transformare */
 }
@@ -169,7 +169,7 @@ image p{
 
 /* Efect la hover pentru imagini din galerie */
 .image:hover img {
-    transform: scale(1.3); /* Mărire la hover */
+    transform: scale(1.2); /* Mărire la hover */
 }
 
 /* Elemente ascunse */
@@ -203,6 +203,7 @@ image p{
     border-radius: 5px; /* Bordură rotunjită pentru buton */
     cursor: pointer; /* Cursor pointer pentru buton */
     transition: background-color 0.3s; /* Tranziție pentru culoarea de fundal la hover */
+    text-decoration: none;
 }
 
 /* Efect la hover pentru butonul "Vezi mai multe" */
@@ -426,10 +427,26 @@ button.toate-produsele a {
 /* Stiluri pentru imagini din produse.html */
 .produse-image img {
     max-width: 100%; /* Lățime maximă 100% pentru imagini */
+    height: auto; /* Înălțime automată pentru a menține proporțiile originale */
     max-height: 400px; /* Înălțime maximă pentru imagini */
-    border-radius: 100px; /* Bordură rotunjită */
+    border-radius: 100px; /* Imaginile vor fi rotunde */
     transition: transform 0.3s; /* Tranziție pentru efectul de transformare */
 }
+.produse-image img:hover {
+    transform: scale(1.1);
+}
+.arata-image img{
+    max-width: 100%; /* Lățime maximă 100% pentru imagini */
+    height: auto; /* Înălțime automată pentru a menține proporțiile originale */
+    max-height: 500px; /* Înălțime maximă pentru imagini */
+    border-radius: 20px; /* Imaginile vor fi rotunde */
+    transition: transform 0.3s; /* Tranziție pentru efectul de transformare */
+}
+.arata-image img:hover{
+    transform: scale(1.4);
+}
+
+
 .videos{
     text-align: center;
 }
@@ -449,4 +466,10 @@ button.toate-produsele a {
     color: black;
     font-size: 18px;
     font-style: italic;
+}
+.texte-produse{
+    text-align: center;
+}
+.texte-produse p{
+    font-size: 18px;
 }
